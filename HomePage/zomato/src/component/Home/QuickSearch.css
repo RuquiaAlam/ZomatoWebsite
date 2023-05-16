@@ -1,0 +1,96 @@
+#quickSearch {
+    width: 100%;
+    height: 500px;
+    /* border :5px double orange; */
+    /* margin-left: 8%; */
+    /* margin-top: 0%;
+    margin-bottom: 10%; */
+    display: inline-block;
+    background-color: rgb(121, 9, 46);
+  
+  }
+  #quickHeading {
+    margin-left: 2%;
+    font-size: 50px;
+    font-weight: bold;
+    font: normal normal bold 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192f60;
+    display: block;
+  }
+  #quickHeading:hover {
+    font-size: 50px;
+  }
+  #quickSubheading {
+    color: #8c96ab;
+    font-size: 18px;
+    margin-left: 2%;
+  }
+  .tileContainer {
+    width: 30%;
+    height: 150px;
+    box-shadow: 20px 30px 20px #0c020229;
+    margin-left: 2%;
+    margin-top: 3%;
+    float: left;
+    animation: dance 10s infinite;
+    border:1px solid rgb(100, 27, 27);
+    
+  }
+  .tileContainer:hover {
+    transform: scale(1.1);
+    /* transform: skewY(10deg) */
+    /* transform: rotate(180deg); */
+  }
+  .tileComponent1 {
+    width: 40%;
+    float: left;
+  
+  }
+  .tileComponent1 img {
+    width: 150%;
+    height: 150px;
+  }
+  .tileComponent2 {
+    width: 45%;
+    float: left;
+    margin-top: -50%;
+    margin-left: 67%;
+    font-size: 10px;
+  }
+  .componentHeading {
+    font-size: 20px;
+    color: #192f60;
+  }
+  .componentHeading > a {
+    color: #192f60 !important;
+  }
+  .componentSubHeading {
+    font-size: 12px;
+    color: #8c96ab;
+    position: relative;
+    margin-top: 11%;
+    margin-left: 62%;
+  }
+  @keyframes dance {
+    0% {
+      transform: rotate(-5deg);
+    }
+  
+    25% {
+      transform: rotate(0deg);
+    }
+  
+    50% {
+      transform: rotate(5deg);
+    }
+  
+    65% {
+      transform: rotate(1.1);
+    }
+  
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
+  

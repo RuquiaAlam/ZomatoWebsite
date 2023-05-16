@@ -1,0 +1,2 @@
+shortcut
+//window_key + .key = Emojis 

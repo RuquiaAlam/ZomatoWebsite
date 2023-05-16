@@ -1,0 +1,52 @@
+#brand {
+  width: 100%;
+  height: 50px;
+  margin: left 20%;
+  background-color: #3b2632;
+
+}
+#brand > #icon {
+  float: left;
+  margin-left: 2%;
+  margin-top: 0%;
+  font-size: 30px;
+  color: white;
+}
+#social {
+  float: right;
+  margin-top: 0%;
+  margin-left: 1%
+
+}
+/* #home { */
+/* float:left; */
+  /* padding-top:5px;
+  margin-top: 0%;
+
+} */
+.btn-danger
+{
+  margin-left:10px;
+}
+header{
+  height: 70px;
+  background-color: #3b2632;
+}
+
+#home
+{
+  margin-top:1%;
+  margin-left:2%;
+}
+
+header {
+  background-color: #3b2632;
+  height: 70px;
+}
+#brand {
+  color: #fff;
+  font-size: 30px;
+  float: left;
+  margin-top: 1%;
+  margin-left: 1%
+}
